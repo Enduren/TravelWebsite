@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Blog</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Blog</h2>
+            <div class="toggle"></div>
+        </header>
+         <video src="video/pexels-cottonbro-6700175 (2160p).mp4" muted loop autoplay></video> 
+        
+        <div class="overlay"></div>
+        <divc class="text">
+            <h2>Exploring The World</h2>
+            <h3>One Country at a time</h3>
+            <p>
+                Travel broadens perspectives, offering new cultures, 
+                experiences, and connections, enriching life with diversity, 
+                understanding, and unforgettable memories.
+                
+            </p>
+        </div>
+
+
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="destination.html">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () =>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+
+
+
+    </script>
+</body>
+</html>

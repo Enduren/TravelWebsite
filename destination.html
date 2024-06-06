@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Destination</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Destination</h2>
+            <div class="toggle"></div>
+        </header>
+         <video src="video/video (2160p).mp4" muted loop autoplay></video> 
+        
+        <div class="overlay"></div>
+        <divc class="text">
+            <h2>Go whenever where ever</h2>
+            <h3>Your Destination Awaits</h3>
+            <p>
+                Traveling provides a break from routine,
+                 offering scenic beauty, cultural exploration, 
+                 and the chance to unwind, promoting relaxation and rejuvenation.
+                
+            </p>
+        </div>
+
+       
+
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () =>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+
+
+
+    </script>
+
+</body>
+</html>
